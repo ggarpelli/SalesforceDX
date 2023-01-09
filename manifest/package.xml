@@ -17,6 +17,10 @@
         <name>ApexTestSuite</name>
     </types>
     <types>
+    <types>
+        <members>*</members>
+        <name>CustomObject</name>
+    </types>
         <members>*</members>
         <name>ApexTrigger</name>
     </types>
