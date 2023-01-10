@@ -12,6 +12,7 @@ public class Covid19 {
         this.recuperadosCidade = recuperadosCidade;
         recuperadosPais = recuperadosCidade;
         //teste de deploy
+        //teste2
     }
     
     public void pacientesTratados(){
