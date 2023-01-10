@@ -11,6 +11,7 @@ public class Covid19 {
         System.debug('Constructor2 está sendo chamado');
         this.recuperadosCidade = recuperadosCidade;
         recuperadosPais = recuperadosCidade;
+        //teste de deploy
     }
     
     public void pacientesTratados(){
