@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <interviewLabel>Preappointment Checklist Flow {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Preappointment Checklist Flow</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>FieldServiceMobile</processType>
+    <screens>
+        <name>Preappointment_Checklist</name>
+        <label>Preappointment Checklist</label>
+        <locationX>457</locationX>
+        <locationY>75</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <name>Do_you_have_your_mask_on</name>
+            <dataType>Boolean</dataType>
+            <fieldText>Do you have your mask on?</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <start>
+        <locationX>33</locationX>
+        <locationY>79</locationY>
+        <connector>
+            <targetReference>Preappointment_Checklist</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+</Flow>

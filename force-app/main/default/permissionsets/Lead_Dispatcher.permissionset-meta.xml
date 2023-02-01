@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>Lead_Dispatcher_Permissions</name>
+    </customPermissions>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>copy_absence_to_next_day</name>
+    </customPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Lead Dispatcher</label>
+</PermissionSet>
