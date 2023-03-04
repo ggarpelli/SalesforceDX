@@ -11,6 +11,7 @@ public class AccountController {
     public Static List<Account> getAllAccounts(){
         List<Account> contas = [SELECT Name, Phone FROM Account];
         return contas;
+        
     }
     
     public void printAllAccounts(){
