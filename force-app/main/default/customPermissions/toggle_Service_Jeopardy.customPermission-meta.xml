@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomPermission xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Grant permission to view and use the toggleServiceJeopardy class on the Gantt.</description>
+    <isLicensed>false</isLicensed>
+    <label>toggle Service Jeopardy</label>
+</CustomPermission>
