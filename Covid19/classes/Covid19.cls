@@ -12,6 +12,7 @@ public class Covid19 {
         this.recuperadosCidade = recuperadosCidade;
         recuperadosPais = recuperadosCidade;
         //só para comentar e commitar! 2023 -- Viva a OSF Digital, new challenge.
+        //Comitado atraves da DMD160 no STAGING
     }
     
     public void pacientesTratados(){
