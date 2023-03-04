@@ -11,6 +11,7 @@ public class Covid19 {
         System.debug('Constructor2 está sendo chamado');
         this.recuperadosCidade = recuperadosCidade;
         recuperadosPais = recuperadosCidade;
+        //só para comentar e commitar! 2023 -- Viva a OSF Digital, new challenge.
     }
     
     public void pacientesTratados(){
